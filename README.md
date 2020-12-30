@@ -130,7 +130,7 @@ void matrix_product(fc_param fc, float* result, float* input) {
 
 
 
-一个效率更高的实现：
+A more efficient implementation：
 
 ```c++
 void matrix_product_improved(fc_param fc, float* result, float* input) {
@@ -166,23 +166,23 @@ void matrix_product_improved(fc_param fc, float* result, float* input) {
 
 /samples/face.jpg:
 
-![https://github.com/wettera/SimpleCNNbyCPP/blob/main/result/face1.png]()
+![](https://github.com/wettera/SimpleCNNbyCPP/blob/main/result/face1.png)
 
 /samples/bg.jpg:
 
-![https://github.com/wettera/SimpleCNNbyCPP/blob/main/result/bg1.png]()
+![](https://github.com/wettera/SimpleCNNbyCPP/blob/main/result/bg1.png)
 
 
 
-使用效率更高的Fully connected layer实现方式：
+Using fully connected layer with more efficient implementation：
 
 /samples/face.jpg:
 
-![https://github.com/wettera/SimpleCNNbyCPP/blob/main/result/face2.png]()
+![](https://github.com/wettera/SimpleCNNbyCPP/blob/main/result/face2.png)
 
 /samples/bg.jpg:
 
-![https://github.com/wettera/SimpleCNNbyCPP/blob/main/result/bg2.png]()
+![](https://github.com/wettera/SimpleCNNbyCPP/blob/main/result/bg2.png)
 
 
 
